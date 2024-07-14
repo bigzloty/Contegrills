@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+
+    background-color: crimson;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+/* .collapse ul li a:hover {
+    background-color: yellowgreen;
+    transition: 1.5s;
+    border-radius: 30px;
+} */
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.dark-bg {
+    background-image: linear-gradient(rgba(1, 0, 0, .1), rgba(0, 0, 0, .1)),
+        url(conte-hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    height: 50vh;
+}
+
+
+.button-hero .button-click {
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+.button-hero .button-click a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-hero .button-click:hover {
+    background: greenyellow;
+    color: black;
+    border: 2px solid greenyellow;
+    transition: 1s;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    width: fit-content;
+}
+
+.card-body h5 {
+    color: #000000;
+}
+
+.card-body p {
+    color: grey;
+}
+
+.card-body a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    /* color: greenyellow; */
+    background: greenyellow;
+    color: black;
+    border: 2px solid greenyellow;
+    transition: 1s;
+
+}
+
+.About {
+    /* width: 100%; */
+    /* padding: 78px 0; */
+    margin-top: 78px;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.About img {
+    /* height: auto; */
+    /* width: 310px; */
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    /* margin-left: 50px; */
+}
+
+.About-text {
+    width: 550px;
+}
+
+.main {
+    /* width: 1130px;
+    max-width: 95%; */
+    /* margin:auto; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    /* gap: 200px; */
+    gap: 50px;
+}
+
+.About-text h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.About-text h5 {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 4px;
+}
+
+span {
+    color: crimson;
+}
+
+.About-text p {
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+
+.button-type {
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    transition: .4s;
+    padding: 5px 5px;
+}
+
+.button-type:hover {
+    background: greenyellow;
+    color: black;
+    border: 2px solid greenyellow;
+    transition: 1s;
+}
+
+.container-form {
+    background-color: crimson;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container-form .btn:hover {
+    background: greenyellow;
+    color: black;
+    border: 2px solid greenyellow;
+    transition: 1s;
+}
+
+footer {
+    background-color: #111;
+}
+
+.Footer-container {
+    width: 100%;
+    /* padding: 70px 30px 20px; */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-icons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-bottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+}
+
+@media (max-width:767px) {
+    .ul-bg {
+        background-color: coral;
+    }
+
+
+    nav .nav-item a:hover {
+        color: greenyellow !important;
+    }
+}
+
+@media (max-width:767px) {
+
+    .About-text p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* overflow: hidden; */
+        flex-wrap: wrap;
+    }
+
+    .About img {
+        max-width: 100vw;
+        height: 400px;
+    }
+
+    .collapse ul li a:hover {
+        background-color: transparent;
+        color: yellowgreen;
+    }
+}
